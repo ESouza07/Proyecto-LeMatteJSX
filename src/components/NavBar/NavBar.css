@@ -1,0 +1,17 @@
+.estilosPropiosNav{
+    background-color: #729b79;
+    padding: 10px 10px;
+}
+
+.logo{
+    width: 70px;
+    height: 60px;
+}
+
+.estilosDiv{
+    padding: 0px 20px;
+}
+
+.estiloLista{
+    color: black;
+}
