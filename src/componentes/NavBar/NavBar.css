@@ -1,5 +1,5 @@
 /*Estilos NavBar*/
-#navbar {
+.navbar {
     width: 100%;
     height: 60px;
     display: flex;
@@ -8,26 +8,27 @@
     background-color: #678d58;
   }
   
-  #navbar .brand {
+  .navbar .brand {
     padding: 0 40px;
   } 
   
-  #navbar .brand img {
+  .navbar .brand img {
     width: 70px;
     height: 50px;
   }
   
-  #navbar ul {
+  .navbar ul {
+    padding: 0 10px;
     height: 60px;
     display: flex;
   }
   
-  #navbar ul li{
+  .navbar ul li{
     height: 60px;
     list-style: none;
   }
   
-  #navbar ul li a{
+  .navbar ul li a{
     display: flex;
     align-items: center;
     height: 100%;
@@ -38,14 +39,14 @@
     font-weight: bold;
   }
   
-  #navbar ul li a:hover{
+  .navbar ul li a:hover{
     background-color: #a6c48a;
     cursor: pointer ;
   }
   
   /*Estilos Carrito*/
   
-  #cartwidget{  
+  .cartwidget{  
     width: 50px;
     height: 50px;
     display: flex;
@@ -53,18 +54,19 @@
     align-items: center;
     color: white;
     margin: 0 40px;
+    text-decoration: none;
   }
   
-  #cartwidget:hover{
+  .cartwidget:hover{
     background-color: #a6c48a;
     cursor: pointer ;
   }
   
-  #cartwidget img {
-    width: 20px;
-    height: 20px;
+  .cartwidget img {
+    width: 30px;
+    height: 30px;
   }
   
-  #cartwidget p {
+  .cartwidget p {
     margin: 0 5px;
   }

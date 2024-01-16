@@ -1,0 +1,98 @@
+.carrito {
+    min-height: 90vh;
+    padding: 20px;
+}
+
+.carrito .lista {
+    display: flex;
+}
+
+.carrito .producto {
+    width: 200px;
+    height: auto;
+    border: 2px solid #678d58;
+    list-style: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.producto .imagen {
+    width: 70%;
+    margin: 0 15%;
+}
+
+.producto .nombre {
+    font-weight: bold;
+}
+
+.producto .borrar {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    display: flex;
+    border: 1px solid #678d58;
+    border-radius: 5px;
+    color: #678d58;
+}
+
+.producto .borrar:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.botones-carrito-borrar,
+.botones-carrito-continuar {
+    width: 200px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 2px solid #678d58;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+.botones-carrito-borrar:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.botones-carrito-continuar:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.botones-carrito-borrar p {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.carrito-vacio {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrito-vacio .button {
+    width: 200px;
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid #678d58;
+    margin-bottom: 20px;
+}

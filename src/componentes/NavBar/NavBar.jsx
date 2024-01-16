@@ -5,9 +5,9 @@ import "./NavBar.css";
 
 const NavBar = () => {
   return (
-    <div id="navbar">
+    <nav className="navbar">
       <Link to="/" className="brand">
-        <img src="./public/images/logopng.png" alt="Logo Le Matte" />
+        <img src="../public/images/logopng.png" alt="Logo Le Matte" />
       </Link>
       <ul>
         <li>
@@ -21,7 +21,7 @@ const NavBar = () => {
         </li>
       </ul>
       <CartWidget />
-    </div>
+    </nav>
   );
 };
 

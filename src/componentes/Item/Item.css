@@ -12,6 +12,8 @@
   }
   
   .item .image {
+    width: 190px;
+    height: 190px;
     padding: 30px;
   }
   
@@ -41,6 +43,6 @@
   
   .item .link:hover {
     cursor: pointer;
-    background-color: rgb(46, 46, 46);
+    background-color: black;
     color: white;
   }
